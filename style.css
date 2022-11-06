@@ -116,7 +116,7 @@ nav{
 
 .song-info img{
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.8s ease-in;
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,8 +1,9 @@
-console.log('hello')
+
 let songIndex = 0;
 let audioElement = new Audio("audio/1.mp3");
 let masterPlay = document.getElementById("masterPlay"); 
 let myProgressBar = document.getElementById("myProgressBar");
+let gif = document.getElementById("gif");
 let songs = [
     {songName: "Let me love you", filePath: "audio/1.mp3", coverPath: "assets/1.jpg"},
     {songName: "Let me love you", filePath: "audio/2.mp3", coverPath: "assets/2.jpg"},
@@ -20,10 +21,24 @@ let songs = [
 masterPlay.addEventListener('click', ()=> {
     if (audioElement.paused || audioElement.currentTime == 0) {
         audioElement.play();
+        masterPlay.classList.remove("fa-play-circle");
+        masterPlay.classList.add("fa-pause-circle");
+        gif.style.opacity =1;
+    }else{
+        audioElement.pause();
+        masterPlay.classList.remove("fa-pause-circle");
+        masterPlay.classList.add("fa-play-circle");
+        gif.style.opacity =0;
     }
 })
 
-// listen to event
-myProgressBar.addEventListener('timeupdate', ()=> {
+// listen to event paly bar
+audioElement.addEventListener('timeupdate', ()=> {
+    let progress = Math.round(audioElement.currentTime);
+    myProgressBar.value = progress;
 
 })
+
+myProgressBar.addEventListener('change', ()=>{
+    audioElement.currentTime = myProgressBar.value
+} )
