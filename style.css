@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #faebd7;
+}
+
+nav{
+    font-family:  Montserrat, sans-serif;
+}
+
+.list-item{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    list-style-type: none;
+    background-color: #1f1f1f;
+    height: 90px;
+    color: #fff;
+}
+
+.brand-img{
+    width: 50px;
+}
+
+.alt{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.header-list-items{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.brand-img-logo{
+    display: flex;
+    align-items: center;
+}
+
+.main-container{
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 30px;
+    height: 64vh;
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: Varela Round, sans-serif;
+    background-image: url(./assets/bg.jpg);
+    overflow-y: auto;
+}
+
+.song-item{
+    border: 2px green;
+    display: flex;
+    background-color: #fff;
+    color: #1f1f1f;
+    width: 30vw;
+    height: 50px;
+    margin: 18px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.song-item img{
+    width: 50px;
+    border-radius: 34px;
+    margin: 0 23px;
+}
+
+.time-stamp{
+    margin: 0, 23px;
+    margin-right: 10px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 18px;
+}
+
+.icons i{
+    cursor: pointer;
+    
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 150px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.song-info{
+    position: absolute;
+    left: 10vw;
+    font-family: Varela Round, sans-serif;
+}
+
+.song-info img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #1f1f1f;
+    }
+    .main-container{
+        margin: 0 10px;
+        width: auto;
+    }
+    .song-item{
+        width: auto;
+        gap: 12px;
+        height: auto;
+    }
+    .song-info{
+        position: static;
+        margin-bottom: 15px;
+    }
+}
