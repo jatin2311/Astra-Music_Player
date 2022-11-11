@@ -18,6 +18,11 @@ let songs = [
 ]
 
 // Handle play / pause
+
+// inserting data via js
+
+
+
 masterPlay.addEventListener('click', ()=> {
     if (audioElement.paused || audioElement.currentTime == 0) {
         audioElement.play();
