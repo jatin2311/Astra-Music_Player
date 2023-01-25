@@ -13,6 +13,5 @@
 ---
                                                    By_Jatin Agrahari
 
-![Demo-images](https://github.com/jatin2311/Music-/tree/main/assets/demo/SS-1.png)
-![Demo-images](https://github.com/jatin2311/Music-/tree/main/assets/demo/SS-2.png)
+![Demo-images](https://github.com/jatin2311/Music-/blob/main/assets/demo/ss-1.png)
 ![Demo-images](https://github.com/jatin2311/Music-/tree/main/assets/demo/SS-3.png)
