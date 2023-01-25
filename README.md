@@ -13,7 +13,6 @@
 ---
                                                    By_Jatin Agrahari
 
-![Demo-images](https://github.com/jatin2311/Paytm-clone/blob/main/demo/SS-01.png)
-![Demo-images](https://github.com/jatin2311/Paytm-clone/blob/main/demo/SS-02.png)
-![Demo-images](https://github.com/jatin2311/Paytm-clone/blob/main/demo/SS-03.png)
-![Demo-images](https://github.com/jatin2311/Paytm-clone/blob/main/demo/ss-04.png)
+![Demo-images](https://github.com/jatin2311/Music-/tree/main/assets/demo/SS-1.png)
+![Demo-images](https://github.com/jatin2311/Music-/tree/main/assets/demo/SS-2.png)
+![Demo-images](https://github.com/jatin2311/Music-/tree/main/assets/demo/SS-3.png)
